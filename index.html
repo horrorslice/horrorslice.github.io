@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TinyMCE Editor</title>
+  <script src="G:/My Drive/TinyMCE/js/tinymce/tinymce.min.js"></script>
+  <script type="text/javascript">
+  tinymce.init({
+    selector: "#mytextarea",
+    plugins: "code",
+    skin: "dracula",
+    content_css: "dracula",
+    height: 800
+  });
+  </script>
+</head>
+<body style="background-color:#21222C;">
+  <form method="post">
+    <textarea id="mytextarea">Hello, World!</textarea>
+  </form>
+</body>
+</html>
